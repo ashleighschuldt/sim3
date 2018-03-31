@@ -1,0 +1,42 @@
+.auth-body {
+    margin: 25% auto;
+    color: white;
+    background: transparent;
+    
+    width: 35%;
+  }
+  .auth-body p {
+    font-size: 50px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+  .auth-input{
+    margin: auto;
+    width: 100%;
+  }
+  .auth-body input {
+    margin: 10px 10px;
+    border: none;
+  }
+  .auth-body label {
+      margin-left: 50px;
+  }
+  .auth-button-div {
+    display: flex;
+    margin: 20px auto;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .login {
+    background: #403D39;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  img{
+      display: flex;
+      margin: 20px auto;
+  }
