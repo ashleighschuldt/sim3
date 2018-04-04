@@ -57,6 +57,14 @@ db.user.createUser({
         .catch(handleDbError(res));
     });
 
+app.get(`/api/posts`, (req, res) => {
+    const db = app.get('db');
+    db.post.getPosts()
+        .then(posts => {
+            res.status(200).send(posts);
+        })
+        .catch(handleDbError(res));
+})
 
 const port = process.env.PORT || 8080;
 app.listen(port, ()=>{console.log(`Listening on port ${port}`)});
