@@ -2,7 +2,7 @@
     margin: 25% auto;
     color: white;
     background: transparent;
-    
+    box-shadow: 2px 1px 10px -1px #464040;
     width: 35%;
   }
   .auth-body p {
@@ -36,7 +36,12 @@
     padding: 10px 15px;
     font-family: 'Open Sans', sans-serif;
   }
-  img{
+  .heloLogo {
       display: flex;
       margin: 20px auto;
+      justify-content: center;
+  }
+  .heloLogo img{
+    height: 100%;
+    width: 30%;
   }

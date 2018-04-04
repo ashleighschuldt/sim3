@@ -39,7 +39,9 @@ class Auth extends Component {
     render(){
         return (
         <div className='auth-body'>
-            <img src={heloLogo}/>
+            <div className='heloLogo'>
+            <img alt='heloLogo' src={heloLogo}/>
+            </div>
             <p><b>Helo</b></p>
             <div className='auth-input'>
             <label>Username:</label>
